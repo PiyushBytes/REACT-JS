@@ -2,7 +2,12 @@ import React from 'react'
 
 const App = () => {
   return (
-    <div>App</div>
+    <div>
+      <div className = "card">
+        <h1>Piyush Dawn</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, quisquam?</p>
+      </div>
+    </div>
   )
 }
 
