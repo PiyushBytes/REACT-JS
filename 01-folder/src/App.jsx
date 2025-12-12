@@ -9,11 +9,11 @@ import React from 'react'
 const App = () => {
   return (
     <>
-       <div id = "dad"> {/*(use of fragmentation) */}
+       <div id = "PARENT"> {/*(use of fragmentation) */}
       <h1 id = "child 1"> Hello </h1>
       <h2 id = "child 2">Hello</h2>
     </div>
-    <div id = "Chacha"></div>
+    <div id = "PARENT"></div>
    
     </>
   )
