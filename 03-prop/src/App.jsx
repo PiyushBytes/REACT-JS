@@ -1,13 +1,12 @@
 import React from "react";
+import Card from "./Components/Card";
 
 const App = () => {
   return (
     <div className="parent">
-      <div className="card">
-        <h1>Piyush Dawn</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-        <button>View profile</button>
-      </div>
+
+      <Card User = "Piyush" age = {18}/>
+      <Card User = "Sk" age = {23}/>
     </div>
   );
 };
